@@ -468,7 +468,40 @@ body{
 
 
 /* Media query for responsive navbar */
-@media (max-width: 768px) {
+
+
+
+
+
+
+
+
+@media (min-width: 786px) {
+	
+	.wrapper{
+		width:68%;
+		
+		height: 100%;
+		background: var(--white);
+		margin: 2% auto 0;
+		padding: 50px;
+		border-radius: 5px;
+		box-shadow: #5b6475 0 0 30px -5px;
+	}
+	.wrapper .btns_wrap{
+		width: 62.2%;
+		max-width: 100%;
+		margin: 0vh auto;
+		position: absolute;
+		bottom:  0px;
+		left: 18.9%;
+		margin-bottom: 1%;
+		padding-top: 0%;
+		
+	}
+}
+
+@media (min-width: 320px) {
 	.navbar-links {
         display: none;
     }
@@ -515,39 +548,19 @@ body{
 		padding-top: 0%;
 		
 	}
-}
-@media (min-width: 786px) {
-	
-	.wrapper{
-		width:68%;
-		
-		height: 100%;
-		background: var(--white);
-		margin: 2% auto 0;
-		padding: 50px;
-		border-radius: 5px;
-		box-shadow: #5b6475 0 0 30px -5px;
-	}
-	.wrapper .btns_wrap{
-		width: 62.2%;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		max-width: 100%;
-		margin: 0vh auto;
-		position: absolute;
-		bottom:  0px;
-		left: 18.9%;
-		margin-bottom: 1%;
-		padding-top: 0%;
+		margin: 0 auto;
+		padding: 0 20px;
+		height: 4vh;
+		
 		
 	}
 }
-
-
-
-
-
-
-
-
 
 
 
